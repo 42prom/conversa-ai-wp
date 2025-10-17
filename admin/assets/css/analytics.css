@@ -1,0 +1,61 @@
+/* Limit chart container heights */
+.conversaai-chart-container {
+    height: 300px !important;
+    max-height: 300px !important;
+    min-height: 200px !important;
+    overflow: hidden;
+}
+
+/* Limit widget heights */
+.conversaai-widget {
+    max-height: 400px !important;
+    overflow: hidden;
+}
+
+/* Fix empty container spacing */
+.conversaai-no-data {
+    height: auto !important;
+    padding: 20px !important;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+/* Optimize analytics layout */
+.conversaai-analytics-dashboard {
+    max-height: none !important;
+    overflow: visible;
+}
+
+/* Fixed height for widget rows */
+.conversaai-widget-row {
+    height: auto !important;
+    max-height: 450px;
+    margin-bottom: 30px !important;
+}
+
+/* Improve trending table display */
+.conversaai-trending-table-container {
+    max-height: 250px !important;
+    overflow-y: auto;
+}
+
+/* Analytics dashboard card styling */
+.conversaai-analytics-card {
+    height: 150px !important;
+    overflow: hidden;
+}
+
+/* Fix for analytics page scrolling */
+.conversaai-analytics-summary {
+    margin-bottom: 30px !important;
+    grid-template-rows: auto !important;
+}
+
+/* Error message styling */
+.conversaai-error {
+    padding: 20px;
+    text-align: center;
+    color: #e53935;
+    font-style: italic;
+}
